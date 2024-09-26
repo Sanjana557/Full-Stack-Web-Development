@@ -1,0 +1,77 @@
+'''
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Internship by Skolar</h1>
+    <h2>This is sample html file done during training</h2>
+    <h3>I'm a student pursuing the training</h3>
+    <h4>This is the topic where we are discussing about headings tag</h4>
+    <h5>The headings become smaller and smaller by increasing the numbers like h1 is the much bigger one and all the others starts decreasing in the size</h5>
+    <h6>This is the heading where the size is so small</h6>
+    <p>This is a paragraph tag where we can write many words and also we can provide a link in the paragraph tag by using the anchor tag 'a'. Here is an example of anchor tag <a href="https://www.google.com">link </a> href is the word which we use for adding any links or URL's in the anchor tag </p>
+
+    <ul>
+        <li>There are three types in list</li>
+        <li>Ordered List</li>
+        <li>Unordered List</li>
+        <li>Descriptive List</li>
+        
+
+    </ul>
+
+    <ol>
+        <li>In Ordered List,the list is represented by using the Numbers</li>
+        <li>In Unordered List there will be points or dots or bullets</li>
+        <li>DescriptiveList is a list where we can add paragraph</li>
+
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>In Description List we have other two tags they 'dt' and 'dd' in dt we give the main title of the paragraph and in dd we write the data about the heading</dd>
+    </dl>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtEWrvJ5BGuI2_oPhG3o0hWxQZ3qVeoD1VtQ&s">
+
+    <table border="1">
+        <tr>
+            <th>tr</th>
+            <th>th</th>
+        </tr>
+        <tr>
+            <td>tr refers to the table row</td>
+            <td>th refers to the table heading</td>
+            
+
+        </tr>
+        <tr>
+            <td>In tr we add the information row wise</td>
+            <td>in th we can add any number of headings they will be highlighted</td>
+        </tr>
+        <tr>
+            <td>To enter the information into each row we have to create tr everytime</td>
+            <td>td is used to enter the data everytime</td>
+
+        </tr>
+    </table>
+    <form action="/submit-form" method="post">
+        <label for="fname">First Name: </label><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter your First Name"><br>
+        <label for="lname">Last Name: </label><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter your Last Name"><br>
+        <input type="submit" value="Submit">
+        <!--we can use another method for submit button that is
+        <button type="submit">Submit</button>-->
+    </form> 
+</body>
+</html>
+
+
+
+'''
